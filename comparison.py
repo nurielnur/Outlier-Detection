@@ -11,9 +11,11 @@ from OutlierDetection import OutlierDetection
 import warnings
 warnings.filterwarnings('ignore')
 
-n_samples = 1000
+n_samples = 300
 outliers_fraction = 0.2
-datasets = make_datasets(n_samples, outliers_fraction)
+n_features = 2 #For generating 2 dimensional Dataset
+
+datasets = make_datasets(n_samples, outliers_fraction, n_features)
 
 
 anomaly_algorithms = [

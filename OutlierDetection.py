@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class OutlierDetection:
     def __init__(self, thrs = 0.2, coef = 1):
         self.thrs = thrs
