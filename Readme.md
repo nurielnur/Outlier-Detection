@@ -1,4 +1,4 @@
-Propo density based outlier detection algorithm for N dimensional data is proposed. In the proposed algorithm for every column/dimension/attribute, a boundary length is calcucated to search for neighbours. If a data point has more or equal neighbours than predefined threshold value in between the calculated boundaries, then it is classified as an inlier, otherwise it is an outlier data point.
+This is a density based outlier detection algorithm for N dimensional data. In the proposed algorithm for every column/dimension/attribute, a boundary interval is calcucated to search for neighbours. If a data point has more or equal neighbours than predefined threshold value in between the calculated boundaries, then it is classified as an inlier, otherwise it is an outlier data point.
 Steps of the proposed algorithm are as following:
 
 Step 1: Choose a threshold percentage and coefficient for algorithm. Threshold percentage is the lower limit for data point to be labeled as outlier or not. Coefficient is for making boundaries of the algorithm greater or smaller.
